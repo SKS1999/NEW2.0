@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+    <!--    Your Content Here    -->
+
+    <Button
+        android:id="@+id/signup_button_welcome"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button2"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        app:backgroundTint="@color/teal_700"
+        app:iconPadding="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/login_button_welcome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_button_welcome"
+        app:layout_constraintTop_toBottomOf="@+id/login_button_welcome"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="221dp"
+        android:layout_height="122dp"
+        android:text="cooking a delicious food easily"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textDirection="firstStrongRtl"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/welcometext2"
+        android:layout_width="202dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="124dp"
+        android:text="discover more than 1200 food recipes in your hands and cooking it easily"
+        android:textColor="#F1ECEC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcometext"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/login_button_welcome"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:text="login"
+        android:textColorHighlight="@color/teal_700"
+        android:textSize="24sp"
+        app:backgroundTint="@color/teal_700"
+        app:iconTint="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcometext2"
+        app:layout_constraintVertical_bias="0.239"
+        app:strokeColor="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="216dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:text="Contiue without signing"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_button_welcome"
+        app:layout_constraintVertical_bias="0.176" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
